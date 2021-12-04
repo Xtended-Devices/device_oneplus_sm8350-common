@@ -1,1 +1,4 @@
 allow system_server init:binder { call };
+
+# Allow system_server to read Fast Charging status
+allow system_server sysfs_battery_supply:file { r_file_perms };
