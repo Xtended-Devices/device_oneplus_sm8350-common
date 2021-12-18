@@ -21,6 +21,12 @@ allow hal_camera_default sysfs_ois_control:file rw_file_perms;
 allow hal_camera_default sysfs_tof_control:dir r_dir_perms;
 allow hal_camera_default sysfs_tof_control:file rw_file_perms;
 
+allow hal_camera_default cgroup:file { getattr };
+
+allow hal_camera_default default_prop:file rw_file_perms;
+allow hal_camera_default system_prop:file rw_file_perms;
+
+
 get_prop(hal_camera_default, ctl_default_prop)
 get_prop(hal_camera_default, vendor_db_security_prop)
 get_prop(hal_camera_default, vendor_mmi_prop)

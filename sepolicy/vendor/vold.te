@@ -1,0 +1,2 @@
+allow vold op2_file:dir { ioctl  open  read };
+allow vold vendor_qmcs_file:dir { ioctl  open  read };
