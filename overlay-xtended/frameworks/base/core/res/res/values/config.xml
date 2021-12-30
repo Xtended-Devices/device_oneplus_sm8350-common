@@ -72,4 +72,7 @@
         <item>restart_bootloader</item>
         <item>restart_fastboot</item>
      </string-array>
+     
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">false</bool>
 </resources>
