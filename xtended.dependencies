@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "Xtended-Devices",
+    "repository"  : "kernel_oneplus_sm8350",
+    "target_path" : "kernel/oneplus/sm8350",
+    "revision": "xs"
+  },
+  {
+    "remote": "xtended",
+    "repository"  : "hardware_oneplus",
+    "target_path" : "hardware/oneplus",
+    "revision": "xs"
+  },
+    {
+    "remote": "Xtended-Devices",
+    "repository"  : "vendor_oneplus_sm8350-common",
+    "target_path" : "vendor/oneplus/sm8350-common",
+    "revision": "xs"
+  }
+]
