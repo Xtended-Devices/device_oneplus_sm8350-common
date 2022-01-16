@@ -16,23 +16,10 @@
     <string name="device_summary">Điều chỉnh cài đặt cho thiết bị OnePlus</string>
     <!-- Display modes -->
     <string name="display_title">Chế độ Hiển thị</string>
-    <string name="display_summary">Điều chỉnh cài đặt và tùy chọn màn hình</string>
-    <string name="srgb_mode_summary"></string>
-    <string name="srgb_mode_title">Chế độ sRGB</string>
     <string name="hbm_mode_summary"></string>
     <string name="hbm_mode_title">Chế độ Độ sáng cao</string>
     <string name="dc_mode_summary"></string>
     <string name="dc_mode_title">DC - Làm mờ</string>
-    <string name="adaptive_mode_title">Chế độ Thích nghi</string>
-    <string name="oneplus_mode_title">Chế độ OnePlus</string>
-    <string name="dci_mode_summary"></string>
-    <string name="dci_mode_title">Chế độ Dải màu rộng DCI-P3</string>
-    <string name="Night_mode_summary"></string>
-    <string name="Night_mode_title">Chế độ Ban đêm</string>
-    <string name="panel_category_title">Chế độ Màn hình</string>
-    <string name="panel_category_summary">Các chế độ sửa màu cho tấm nền màn hình</string>
-    <string name="off_mode_title">Tắt</string>
-    <string name="tile_panel_mode">Chế độ Màn hình</string>
     <string name="tile_hbm_mode">Chế độ Độ sáng cao</string>
     <string name="tile_dc_mode">DC - Làm mờ</string>
     <!-- Notification slider -->
