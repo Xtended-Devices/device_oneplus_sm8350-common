@@ -52,14 +52,9 @@ public class DeviceSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
     public static final String KEY_VIBSTRENGTH = "vib_strength";
-    public static final String KEY_SRGB_SWITCH = "srgb";
     public static final String KEY_HBM_SWITCH = "hbm";
     public static final String KEY_HBM_AUTOBRIGHTNESS_SWITCH = "hbm_autobrightness";
     public static final String KEY_DC_SWITCH = "dc";
-    public static final String KEY_DCI_SWITCH = "dci";
-    public static final String KEY_WIDECOLOR_SWITCH = "widecolor";
-    public static final String KEY_NATURAL_SWITCH = "natural";
-    public static final String KEY_VIVID_SWITCH = "vivid";
 
     public static final String KEY_SETTINGS_PREFIX = "device_setting_";
     

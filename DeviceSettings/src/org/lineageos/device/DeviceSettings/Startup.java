@@ -39,46 +39,6 @@ public class Startup extends BroadcastReceiver {
     public void onReceive(final Context context, final Intent bootintent) {
 
         VibratorStrengthPreference.restore(context);
-
-        boolean enabled = false;
-        TouchscreenGestureSettings.MainSettingsFragment.restoreTouchscreenGestureStates(context);
-        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_SRGB_SWITCH, false);
-
-        if (enabled) {
-        mHBM = false;
-        restore(SRGBModeSwitch.getFile(), enabled);
-		}
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_HBM_SWITCH, false);
-        if (enabled) {
-        mHBM = true;
-        restore(HBMModeSwitch.getFile(), enabled);
-        }
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_DC_SWITCH, false);
-        if (enabled) {
-        mHBM = false;
-        restore(DCModeSwitch.getFile(), enabled);
-        }
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_DCI_SWITCH, false);
-        if (enabled) {
-        mHBM = false;
-        restore(DCIModeSwitch.getFile(), enabled);
-        }
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_NATURAL_SWITCH, false);
-        if (enabled) {
-        mHBM = false;
-        restore(NaturalModeSwitch.getFile(), enabled);
-        }
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_VIVID_SWITCH, false);
-        if (enabled) {
-        mHBM = false;
-        restore(VividModeSwitch.getFile(), enabled);
-        }
-        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_WIDECOLOR_SWITCH, false);
-        if (enabled) {
-        mHBM = false;
-        restore(WideColorModeSwitch.getFile(), enabled);
-        }
         Utils.enableService(context);
     }
 

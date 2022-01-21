@@ -16,23 +16,10 @@
     <string name="device_summary">OnePlus\'a özel cihaz ayarlarını düzenleyin</string>
     <!-- Display modes -->
     <string name="display_title">Görüntü modları</string>
-    <string name="display_summary">Görüntü için ayarları ve tercihleri ayarlayın</string>
-    <string name="srgb_mode_summary"></string>
-    <string name="srgb_mode_title">sRGB modu</string>
     <string name="hbm_mode_summary"></string>
     <string name="hbm_mode_title">Yüksek parlaklık modu</string>
     <string name="dc_mode_summary"></string>
     <string name="dc_mode_title">DC-Karartma</string>
-    <string name="adaptive_mode_title">Uyarlanabilir mod</string>
-    <string name="oneplus_mode_title">OnePlus modu</string>
-    <string name="dci_mode_summary"></string>
-    <string name="dci_mode_title">DCI-P3 geniş renk gamı modu</string>
-    <string name="Night_mode_summary"></string>
-    <string name="Night_mode_title">Gece modu</string>
-    <string name="panel_category_title">Panel modları</string>
-    <string name="panel_category_summary">Panel renk düzeltmesi için modlar</string>
-    <string name="off_mode_title">Kapalı</string>
-    <string name="tile_panel_mode">Panel modları</string>
     <string name="tile_hbm_mode">Yüksek parlaklık modları</string>
     <string name="tile_dc_mode">DC-Karartma</string>
     <!-- Notification slider -->

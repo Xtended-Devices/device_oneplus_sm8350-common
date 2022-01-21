@@ -14,6 +14,10 @@ genfscon sysfs /kernel/tof_control                                              
 genfscon sysfs /module/memplus_core/parameters                                                                         u:object_r:sysfs_memplus:s0
 genfscon sysfs /project_info                                                                                           u:object_r:sysfs_project_info:s0
 
+# FPS Info
+genfscon sysfs /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps       u:object_r:sysfs_graphics:s0
+genfscon sysfs /sys/class/drm/card0/sde-crtc-0/measured_fps                 u:object_r:sysfs_graphics:s0
+
 # sysfs (wakeup)
 genfscon sysfs /devices/platform/dummy_hcd.0/usb1/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/17300000.qcom,lpass/subsys6/wakeup u:object_r:sysfs_wakeup:s0

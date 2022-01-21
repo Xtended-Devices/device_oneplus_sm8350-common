@@ -460,4 +460,10 @@
 
     <!-- Whether device has warp charging support -->
     <bool name="config_hasWarpCharger">true</bool> 
+    
+    <!-- Exempt cne from privacy (location) indicators -->
+    <string name="config_systemAudioIntelligence" translatable="false">com.qualcomm.qti.cne</string>
+
+    <!-- Defines custom Vendor sensor for pocket detection. -->
+    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
 </resources>
