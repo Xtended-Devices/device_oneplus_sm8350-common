@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- AncientOS Device Info -->
+    <string name="ancient_device_name_summary">OnePlus 9 Pro</string>
+    <string name="ancient_chipset_type_summary">Qualcomm Snapdragon 888 5G 5nm</string>   
+    <string name="ancient_gpu_summary">Adreno 660</string>
+    <string name="ancient_camera_mp_summary">48MP+50MP f/1.8 Laser AF</string>
+    <string name="ancient_screen_type_summary">6.7"LTPO Fluid2 AMOLED 120Hz</string>
+
+    <!-- AncientOS About Maintainer Info -->
+    <string name="maintainer_name">eduardo</string>
+
+</resources> 
+
