@@ -2,9 +2,4 @@ type hal_cameraHIDL_hwservice, hwservice_manager_type;
 type hal_charger_hwservice, hwservice_manager_type;
 type hal_display_hwservice, hwservice_manager_type;
 type hal_display_iris_hwservice, hwservice_manager_type;
-<<<<<<< HEAD
-=======
-type hal_dms_hwservice, hwservice_manager_type;
-type hal_ifaa_hwservice, hwservice_manager_type;
->>>>>>> 3c94b23 (sm8350-common: Add OnePlus Dolby)
 type hal_param_hwservice, hwservice_manager_type;
