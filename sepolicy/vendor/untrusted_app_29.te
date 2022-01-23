@@ -1,1 +1,7 @@
+allow untrusted_app_29 cgroup:file {read};
+allow untrusted_app_29 proc:file {read};
+allow untrusted_app_29 app_data_file:file { execute };
+allow untrusted_app_29 tmpfs:file {read};
+allow untrusted_app_29 sysfs:dir {search};
+allow untrusted_app_29 app_data_file:file { execute };
 get_prop(untrusted_app_29, vendor_persist_camera_prop)
