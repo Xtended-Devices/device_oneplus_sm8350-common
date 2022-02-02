@@ -12,4 +12,8 @@ allow rild vendor_diag_device:chr_file rw_file_perms;
 allow rild proc:file w_file_perms;
 allow rild proc_net:file w_file_perms;
 
+allow rild default_prop:file { read write open };
+allow rild vendor_default_prop:property_service { set };
+allow rild default_prop:file { getattr map };
+
 set_prop(rild, vendor_rild_prop)

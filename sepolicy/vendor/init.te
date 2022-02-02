@@ -1,0 +1,13 @@
+allow init hal_power_service:service_manager add;
+allow init vendor_hal_perf_default:binder { call };
+
+allow init sysfs:file { setattr };
+allow init sysfs_dm:file { setattr };
+
+allow init hwservicemanager:binder { call };
+allow init proc_touchpanel:file { open  write };
+allow init same_process_hal_file:file { execute };
+allow init servicemanager:binder { call  transfer };
+allow init vendor_file:file { execute  execute_no_trans };
+allow init vendor_hal_perf_hwservice:hwservice_manager { find };
+allow init sysfs_graphics:file rw_file_perms;

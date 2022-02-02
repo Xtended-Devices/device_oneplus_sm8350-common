@@ -514,10 +514,13 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.oneplus
+    vendor.qti.hardware.vibrator.service.oneplus_lahaina
 
 PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
