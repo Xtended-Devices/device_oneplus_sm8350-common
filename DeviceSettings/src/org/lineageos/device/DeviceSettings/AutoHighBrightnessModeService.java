@@ -83,11 +83,7 @@ public class AutoHighBrightnessModeService extends Service {
             } else if (intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {
                 deactivateLightSensorRead();
             }
-
-            if (intent.getAction().equals(
-                    com.android.internal.util.xtended.content.Intent.ACTION_GO_TO_SLEEP)) {
-                mIsGoingToSleep = true;
-            }
+          
         }
     };
 
@@ -96,8 +92,6 @@ public class AutoHighBrightnessModeService extends Service {
         mHandler = new Handler(Looper.getMainLooper());
         IntentFilter screenStateFilter = new IntentFilter(Intent.ACTION_SCREEN_ON);
         screenStateFilter.addAction(Intent.ACTION_SCREEN_OFF);
-        screenStateFilter.addAction(
-                com.android.internal.util.xtended.content.Intent.ACTION_GO_TO_SLEEP);
         registerReceiver(mScreenStateReceiver, screenStateFilter);
         PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
         mResources = getApplicationContext().getResources();
