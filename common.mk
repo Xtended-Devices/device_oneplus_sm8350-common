@@ -435,6 +435,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.oneplus
 
+# SoC
+PROCESSOR_MODEL := SM8350
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
