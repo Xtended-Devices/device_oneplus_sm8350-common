@@ -35,6 +35,15 @@ on boot
     chown system system /sys/kernel/oplus_display/notify_fppress
     chown system system /sys/kernel/oplus_display/panel_serial_number
 
+    # Measured FPS
+    chown system system /sys/class/drm/sde-crtc-0/measured_fps
+
+    # Hyper Touch
+    chown system system /proc/touchpanel/game_switch_enable
+
+    # OIS
+    chown cameraserver cameraserver /sys/kernel/ois_control/dump_registers
+
     # Sensors
     chown system system /sys/devices/platform/soc/soc:sensor_fb/adsp_notify
 

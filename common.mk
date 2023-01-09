@@ -117,6 +117,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
+    libcamera2ndk_vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 PRODUCT_COPY_FILES += \
@@ -309,6 +310,25 @@ PRODUCT_PACKAGES += \
     libOmxG711Enc \
     libOmxQcelp13Enc \
     libstagefrighthw
+
+# OPLUS camera
+$(call inherit-product, vendor/oplus/camera/camera-vendor.mk)
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/oplus_camera_default_grant_permissions_list.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-oplus.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-oplus.xml \
+    $(LOCAL_PATH)/configs/sysconfig/hiddenapi-package-oplus-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-package-oplus-whitelist.xml
+
+# OPLUS framework
+PRODUCT_PACKAGES += \
+    oplus-fwk.lahaina
+
+PRODUCT_BOOT_JARS += \
+    oplus-fwk.lahaina
+
+# OPLUS wrapper
+PRODUCT_BOOT_JARS += \
+    oplus-support-wrapper
 
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
