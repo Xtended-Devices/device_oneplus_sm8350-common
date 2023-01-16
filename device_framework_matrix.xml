@@ -67,4 +67,13 @@
             <instance>cameraextensionservice</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+    <name>vendor.qti.imsrtpservice</name>
+    <version>3.0-1</version>
+    <interface>
+        <name>IRTPService</name>
+        <instance>imsrtpservice</instance>
+    </interface>
+</hal>
+
 </compatibility-matrix>
