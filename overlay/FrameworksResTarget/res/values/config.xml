@@ -68,6 +68,8 @@
 
     <!-- Parallel space blocklist -->
     <string-array name="config_parallelSpaceBlocklist">
+        <item>com.dolby.daxservice</item>
+        <item>com.motorola.dolby.dolbyui</item>
         <item>com.xtended.oplus.OPlusExtras</item>
     </string-array>
 
