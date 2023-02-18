@@ -70,4 +70,8 @@
         <item>org.thunderdog.challegram</item>
         <item>us.zoom.videomeetings</item>
     </string-array>
+    
+    <!-- NightLight FOD -->
+    <bool name="disable_fod_night_light">true</bool>
+    
 </resources>
