@@ -11,4 +11,7 @@
     <!-- Dolby Atmos -->
     <string name="config_dolbyAtmosPackage" translatable="false">com.dolby.daxappui/com.dolby.daxappui.MainActivity</string>
 
+    <!-- Whether to show refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
+    
 </resources>
