@@ -66,4 +66,9 @@
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
 
+    <!-- Parallel space blocklist -->
+    <string-array name="config_parallelSpaceBlocklist">
+        <item>com.xtended.oplus.OPlusExtras</item>
+    </string-array>
+
 </resources>
