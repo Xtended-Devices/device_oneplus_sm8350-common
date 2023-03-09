@@ -284,6 +284,10 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc_snxxx@1.2-service \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
+    com.gsma.services.nfc \
+    QuickAccessWallet \
+    NfcNci \
+    SecureElement \
     Tag
 
 PRODUCT_COPY_FILES += \
@@ -316,10 +320,15 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     FrameworksResTarget \
+    OplusDozeResTarget \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
-    WifiResTarget
+    WifiResTarget \
+    XtendedFrameworksResCommon \
+    XtendedSettingsProviderResCommon \
+    XtendedSettingsResCommon \
+    XtendedSystemUIResCommon
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
