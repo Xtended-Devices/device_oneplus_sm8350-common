@@ -12,9 +12,6 @@
     <!-- Whether device supports Per-App Refresh Rate -->
     <bool name="config_deviceSupportsPerAppRefreshRate">true</bool>
 
-    <!-- Whether device supports Kcal -->
-    <bool name="config_deviceSupportsKcal">true</bool>
-
     <!-- Whether device supports High Brightness Mode -->
     <bool name="config_deviceSupportsHBM">true</bool>
 
