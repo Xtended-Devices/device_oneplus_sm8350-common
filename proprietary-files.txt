@@ -973,12 +973,15 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Thermal engine
-vendor/bin/thermal-engine
-vendor/etc/init/init_thermal-engine.rc
-vendor/etc/thermal-engine.conf
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
+# Thermal - from LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0
+vendor/bin/hw/vendor.qti.hardware.limits@1.0-service|8d06519ea41f7ee97ccd852def1c1617fb982944
+vendor/bin/thermal-engine|b39c4ddd7040352d4fc9ff9a7a59887411373a8e
+vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
+vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc|77c989d8d59b99716b900e96d94a4aa9bcab6aa6
+-vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml|6109f13748cb74b7d042e2604a9883a1b071e810
+-vendor/lib/libthermalclient.so|6ed686c6c39546a7bf532767f6d87808a42b1176
+-vendor/lib64/libthermalclient.so|19863c5bd63733bc3b2260847fc9c3d512597936
+vendor/lib64/vendor.qti.hardware.limits@1.0.so|c33c90b6431e384168075634dd9d37048eca6ede
 
 # Time services
 vendor/app/TimeService/TimeService.apk
