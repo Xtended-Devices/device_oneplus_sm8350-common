@@ -81,4 +81,10 @@
     
     <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
     <bool name="config_dozePulsePickup">true</bool>
+
+    <!-- Parallel space blocklist -->
+    <string-array name="config_parallelSpaceBlocklist">
+        <item>com.xtended.oplus.OPlusExtras</item>
+    </string-array>
+
 </resources>
