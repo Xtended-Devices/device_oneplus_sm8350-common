@@ -33,20 +33,10 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
+    <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.cameraextension</name>
-        <version>1.0</version>
         <interface>
             <name>ICameraExtensionService</name>
-            <instance>cameraextensionservice</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oplus.hardware.cammidasservice</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IMIDASService</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -74,15 +64,6 @@
             <name>IOplusRadio</name>
             <instance>oplus_slot1</instance>
             <instance>oplus_slot2</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.performance</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IPerformance</name>
-            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
