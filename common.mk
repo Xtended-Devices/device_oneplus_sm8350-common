@@ -315,16 +315,21 @@ PRODUCT_BOOT_JARS += \
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-aosp
+    $(LOCAL_PATH)/overlay-xtended
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     FrameworksResTarget \
+    OplusDozeResTarget \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
-    WifiResTarget
+    WifiResTarget \
+    XtendedFrameworksResCommon \
+    XtendedSettingsProviderResCommon \
+    XtendedSettingsResCommon \
+    XtendedSystemUIResCommon
 
 # OnePlus Dolby
 PRODUCT_COPY_FILES += \
