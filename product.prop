@@ -19,3 +19,12 @@ ro.com.google.lens.oem_image_package=com.oneplus.gallery
 
 # GMS
 ro.opa.device_model_id=ga-oplus-skill-os121-211011
+ro.com.google.clientidbase=android-oneplus
+ro.com.google.clientidbase.ms=android-oneplus-rvo3
+ro.com.google.clientidbase.vs=android-oneplus-rvo3
+ro.com.google.clientidbase.tx=android-oneplus-rvo3
+
+# OnePlus
+persist.sys.oplus.region=US
+ro.vendor.oplus.regionmark=US
+ro.vendor.oplus.version=pu
